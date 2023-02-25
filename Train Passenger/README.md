@@ -1,4 +1,4 @@
-# Train Passenger
+# Train Passenger (Codingame Puzzle)
 
 This problem is to find the shortest path between two stations. The environment is `fully observable` because the agent has access to all data about the environment at the first step and deterministic since the next state of the environment can be determined. In other word, the action is taken when the optimum way is derived. Furthermore, the environment remains unchanged while the agent is deliberating, then we can call it static. The agent program used for solving this problem is `Goal-based` agent and being at a particular destination through the shortest way is defined as the goal of this agent.
 
@@ -26,3 +26,8 @@ while current != start :
 path . append ( start )
 path . reverse ()
 ```
+
+## References
+
+- https://www.redblobgames.com/
+- https://www.codingame.com/training/medium/train-passenger
